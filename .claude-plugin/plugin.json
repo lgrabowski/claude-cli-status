@@ -1,0 +1,6 @@
+{
+  "name": "cli-status",
+  "version": "0.1.0",
+  "description": "Bar above the prompt: estimated task progress, model, context window, usage limits and session cost",
+  "types": "./types/index.d.ts"
+}
