@@ -14,6 +14,6 @@ export type Usage = {
 
 declare module 'claude-code' {
   interface PluginState {
-    'cli-status': { usage: Usage; tasks: TaskItem[]; model: string; isHidden: boolean }
+    'cli-status': { usage: Usage; tasks: TaskItem[]; model: string; isHidden: boolean; frame: number; tick: number }
   }
 }

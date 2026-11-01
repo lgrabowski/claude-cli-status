@@ -1,6 +1,11 @@
 {
   "name": "cli-status",
-  "version": "0.1.0",
-  "description": "Bar above the prompt: estimated task progress, model, context window, usage limits and session cost",
-  "types": "./types/index.d.ts"
+  "version": "0.2.0",
+  "description": "One-line live status under the prompt: task progress, model, context window, usage limits and session cost",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "lgrabowski"
+  },
+  "repository": "https://github.com/lgrabowski/claude-cli-status"
 }
